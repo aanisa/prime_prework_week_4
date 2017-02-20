@@ -3,37 +3,33 @@ Array Review
 **/
 
 function createArray() {
-  // create an array with 6 elements (numbers and strings only)
-  // Write code below
-
-  // return this array
+var myArray = ['jk', 29, 'lol', 62, 9, 'haha'];
   return myArray;
 }
+console.log(createArray());
+
+
 
 function loopArray(array) {
-  // used below
   var conString = '';
-  // Write code here: Concatentate all of the values in array together using a loop
-
-
-  // return concatentated values
+for (var i = 0; i <= 0; i++){
+  conString += array;
+}
   return conString;
 }
 
 
 function arrayReverser(arrayParam) {
-  // Copy items from arrayParam to a new array called reversedArray, reversing the order of elements
-  // Last element on arrayParam should become the first in reversedArray
-  // Do not use Array.reverse()!
-
-  // Write the code here
-
-
-  // return our reversed array
-  return reversedArray;
+  var reversedArray = '';
+for (var i = 0; i <= arrayParam.length; i++) {
+  reversedArray[i - 1] = arrayParam[arrayParam.length - i];
+}
+  return reversedArray[i];
 }
 
-// call and console log the return for loopArray and arrayReverser
+
+console.log(loopArray(createArray()));
+console.log(arrayReverser(createArray()));
 
 // -- DON'T TOUCH CODE BELOW --
 module.exports = {

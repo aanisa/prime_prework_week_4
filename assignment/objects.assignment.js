@@ -1,54 +1,75 @@
 /**
 Object Literals
 **/
+
 function threeBooks() {
-  // Create 3 book objects with object literal syntax. Books should have properties for title, author, and pageCount
-  // Write code here
-
-
-  // Add a property of haveRead to each book object you created. This should be set to true or false
-  // Write code here
-
-  // Store these objects in an array called books
-  // Write code here
-
-  // return this array
+  var oneBook = {
+    title: 'The Alchemist',
+    author: 'Paulo Coelho',
+    pageCount: 197,
+    haveRead: true
+  };
+  var twoBook = {
+    title:'Americanah',
+    author:'Chimamanda Ngozi',
+    pageCount: 791,
+    haveRead: false
+  };
+  var threeBook = {
+    title:'Animal Farm',
+    author: 'George Orwell',
+    pageCount: 84,
+    haveRead: true
+  };
+  var books = [oneBook, twoBook, threeBook];
   return books;
 }
 
-function fixLiteralSyntax() {
-  // Fix the problems with our object literal
-  /**
-  avengersMovie = {
-      name : Avengers;
-      runtime : 143 mins;
-      releaseYear = 2012;
-      "Director" : "Joss Whedon".
-  }
-  **/
+console.log(threeBooks());
 
-  // return corrected object
+//
+
+function fixLiteralSyntax() {
+  var avengersMovie = {
+      name : 'Avengers',
+      runtime : 143,
+      releaseYear: 2012,
+      Director: "Joss Whedon"
+  };
   return avengersMovie;
 }
+
+console.log(fixLiteralSyntax());
+
 
 
 /**
 Object Constructors
 **/
 
-// Write a constructor function to create Book objects with the same four properties as above.
-// Write code here
-
 function createBooksWithConstructor() {
-  // Create 3 new books using this constructor function.
-  // Write code here
+  var book1 = new Object ();
+    book1.title ='The Alchemist';
+    book1.author = 'Paulo Coelho';
+    book1.pageCount = 197;
+    book1. haveRead = true;
+  var book2 = new Object ();
+    book2.title = 'Americanah';
+    book2.author = 'Chimamanda Ngozi';
+    book2.pageCount = 791;
+    book2.haveRead = false;
+  var book3 = new Object ();
+    book3.title = 'Animal Farm';
+    book3.author = 'George Orwell';
+    book3.pageCount = 84;
+    book3. haveRead = true;
 
-  // Store them in an array called books
-  // Write code here
-
-  // return our array of books
+var books = [book1, book2, book3];
   return books;
 }
+
+console.log(createBooksWithConstructor());
+
 
 // -- DON'T TOUCH CODE BELOW --
 module.exports = {
