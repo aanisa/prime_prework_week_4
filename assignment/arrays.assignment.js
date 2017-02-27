@@ -18,13 +18,11 @@ for (var i = 0; i <= 0; i++){
   return conString;
 }
 
-
 function arrayReverser(arrayParam) {
-  var reversedArray = '';
-for (var i = 0; i <= arrayParam.length; i++) {
-  reversedArray[i - 1] = arrayParam[arrayParam.length - i];
-}
-  return reversedArray[i];
+ var reversedArray = [];
+ for (var i = arrayParam.length-1; i >= 0; i--) {
+   reversedArray.push(arrayParam[i]); }
+   return reversedArray;
 }
 
 

@@ -47,6 +47,8 @@ console.log(fixLiteralSyntax());
 Object Constructors
 **/
 
+//would be better if created a Book constructor and used this.title, this.author.etc.
+
 function createBooksWithConstructor() {
   var book1 = new Object ();
     book1.title ='The Alchemist';
