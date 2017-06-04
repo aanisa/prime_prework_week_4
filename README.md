@@ -1,4 +1,4 @@
-# Prime Digital Academy - Prework Week 4 Assignment
+# Prime Digital Academy - Pre-Work Week 4 Assignment
 
 ## Topics Covered in Codecademy
 * Array Review
