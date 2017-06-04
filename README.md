@@ -20,3 +20,4 @@ Inside the `assignment` folder you will find a file called `arrays.assignment.js
 
 ### Part 2: Objects
 Inside the `assignment` folder you will find a file called `objects.assignment.js`. Open that file and follow the instructions outlined in the JavaScript comments (denoted with `//`). For this assignment you are given function signatures and will be asked to code the body of the function.
+
